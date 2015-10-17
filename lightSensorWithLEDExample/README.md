@@ -9,6 +9,8 @@ This example involves a light sensor and a red LED.
 - The _red LED_ is plugged on the _digital port 2 (D2)_.
 - After sampling and parsing the sensor information something is printed on the _serial port channel_.
 
+The Grove SEN11302P light sensor and the Grove COM04054P red LED, both come from the Seeed Grove starter kit for Intel Edison boards.
+
 On the ARDUINO IDE open the __Serial Monitor__ from the __Tools__ drop down menu.
 
 The output on the serial monitor should be similar to the following one (it should dynamically change according to the light level, use a torch to change it or move the sensor trying to cover it from the light):
