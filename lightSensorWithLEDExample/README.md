@@ -35,7 +35,7 @@ Low light level! 404
 ```
 
 The red LED is switched on, the light sensor is covered by the board's shadow.
-![LED on](/2015-10-17 19.40.57.jpg)
+![LED on](./2015-10-17 19.40.57.jpg)
 
 The red LED is switched off, the light sensor is under the lamp light.
-![LED on](/2015-10-17 19.41.10.jpg)
+![LED on](./2015-10-17 19.41.10.jpg)
