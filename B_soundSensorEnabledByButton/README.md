@@ -8,6 +8,28 @@ Sound sensor enabled by a button
 - When the board is not reading anything from the sound sensor (i.e. the button is not pushed down) then the red LED is switched on.
 
 
+Sample output
+-------------
+
+On the Serial Channel `/dev/ttyACM0`
+
+```
+$ screen /dev/ttyACM0 9600
+No reading!
+No reading!
+No reading!
+Level: 343
+Level: 434
+Level: 433
+Level: 433
+Level: 433
+Level: 435
+No reading!
+No reading!
+No reading!
+No reading!
+```
+
 Hardware items
 --------------
 
@@ -24,7 +46,7 @@ All the items come from the _Seeed Grove Starter Kit Plus_:
 Software
 --------
 
-This small project has an external dependency to drive the LCD display behaviour. It comes from the (Seeed GitHub account)[https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight], on its (website page)[http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight] there's more technical information about it.
+This small project has an external dependency to drive the LCD display behaviour. It comes from the [Seeed GitHub account](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight), on its [website page](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight) there's more technical information about it.
 This `rgb_lcd` library has been added to this code base to get started quickly. To add the `rgb_lcd` library to your project you need to get the Arduino IDE to find your `rgb_lcd.h` and `rgb_lcd.cpp` files.
 
 On the Arduino IDE:

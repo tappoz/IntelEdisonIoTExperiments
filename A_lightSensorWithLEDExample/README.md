@@ -1,5 +1,5 @@
-Overview
-========
+Light sensor with a LED
+=======================
 
 This example involves a light sensor and a red LED. 
 
