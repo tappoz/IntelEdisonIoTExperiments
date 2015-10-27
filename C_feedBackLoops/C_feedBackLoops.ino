@@ -1,8 +1,9 @@
 #include <Wire.h>
 #include "MMA7660.h"
 MMA7660 accelemeter;
-void setup()
-{
+void setup() {
+  // setup the buzzer on digital pin 6 (D6)
+  pinMode(6, OUTPUT);
   accelemeter.init();  
   Serial.begin(9600);
 }
@@ -26,7 +27,18 @@ void loop()
   Serial.println(accelerationMsg);
   
   Serial.println("*************");
-  delay(500);
+
+  if (y <= 0 && z <= 0) {
+    // the accelerometer is upside down!
+    Serial.println("!!! AAAH !!!");
+    Serial.println("!!! AAAH !!!");
+    Serial.println("!!! AAAH !!!");
+    digitalWrite(6, HIGH);
+  } else {
+    digitalWrite(6, LOW);
+  }
+  
+  delay(200);
 }
 
 
