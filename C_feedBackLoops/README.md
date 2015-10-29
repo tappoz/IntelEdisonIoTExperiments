@@ -15,4 +15,9 @@ On digital pin 6 (D6 plug on the Arduino shield)
 http://www.seeedstudio.com/depot/Grove-Buzzer-p-768.html
 http://www.seeedstudio.com/wiki/Grove_-_Buzzer
 
+TODO
+https://software.intel.com/en-us/flashing-firmware-on-your-intel-edison-board-linux
+https://software.intel.com/en-us/iot/hardware/edison/downloads
+
+
 
