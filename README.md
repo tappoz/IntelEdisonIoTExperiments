@@ -20,3 +20,6 @@ Say the 3 USB 3.0 ports are on the left side of the laptop (bottom to top):
 - J16 connected to the 3rd USB port (also providing the power supply).
 
 Trying to connect to the board with `screen /dev/ttyUSB0 115200`, if that's not working try to unplug and plug again in the USB cable connected to J3.
+
+Once you're inside the Yocto Linux distribution (root user with root password) you can configure the wifi connection with `# configure_edison --wifi`.
+
