@@ -20,4 +20,12 @@ https://software.intel.com/en-us/flashing-firmware-on-your-intel-edison-board-li
 https://software.intel.com/en-us/iot/hardware/edison/downloads
 
 
+# Troubleshooting the serial ports
+
+```
+$ setserial -g /dev/ttyUSB[0]
+/dev/ttyUSB0, UART: unknown, Port: 0x0000, IRQ: 0, Flags: low_latency
+$ setserial -g /dev/ttyACM[0]
+/dev/ttyACM0, UART: unknown, Port: 0x0000, IRQ: 0, Flags: low_latency
+```
 
