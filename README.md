@@ -13,8 +13,10 @@ To run the code you could use the Arduino IDE making sure the right board and po
 On my Thinkpad Edge E530, using Linux Ubuntu, the USB ports are not all the same for some reason not strictly related to the USB protocol version (USB 2.0, USB 3.0).
 I found myself struggling to connect to the serial port of the board using commands like `screen` even if I was connecting both the J16 and J3 board ports to the laptop USB 3.0 ports.
 I found that changing the USB 3.0 ports (I have 3 of them on my laptop) makes the `screen` command work again. 
+
 Say the 3 USB 3.0 ports are on the left side of the laptop (bottom to top):
 
 - J3 connected to the 2nd USB port;
-- J16 connected to the 3rd USB port.
+- J16 connected to the 3rd USB port (also providing the power supply).
 
+Trying to connect to the board with `screen /dev/ttyUSB0 115200`, if that's not working try to unplug and plug again in the USB cable connected to J3.
